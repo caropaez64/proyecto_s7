@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-car_data = pd.read_csv('/Users/CaroPB/Documents/Análisis de datos/Tripleten/Sprint 7/proyecto/proyecto_s7/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 st.header('Construcción de un histograma')
 build_histogram = st.checkbox('Construir histograma')
